@@ -1,0 +1,341 @@
+                LiR 4.1  -  PROGRAMOS APRA¾YMAS
+
+    P A S K I R T I S
+    -----------------
+    Klaviat×ros  ir  ekrano  sulietuvinimo   programa   "LiR"   skirta
+IBM   PC/XT/AT   bei  IBM PS/2   tipo   kompiuteriams   ir   naudojama
+lietuviÕkÖ ir/arba  rusiÕkÖ  simboliÖ   Ôvedimui   iÕ   klaviat×ros ir
+atvaizdavimui  ekrane.
+
+    LietuviÕka klaviat×ra gali b×ti iÕdÓstyta trim b×dais:
+         - lietuviÕka universali klaviat×ra (LST 1205-92);
+         - lietuviÕka ergonominÓ klaviat×ra (RST 1092-89);
+         - DOS tarptautinÓ lietuviÕka klaviat×ra (RST 1092-89).
+    LietuviÕka simboliÖ lentelÓ gali b×ti iÕdÓstyta trim b×dais:
+         - 772/774 kodÖ lentelÓ (LST 1284:1993, LST 1283:1993);
+         - IBM-BALTIC kodÖ lentelÓ (RST 1095-89)
+         - nestandartinÓ (KBL) kodÖ lentelÓ;
+    RusiÕka   klaviat×ra   ir   simboliÖ   lentelÓ   iÕdÓstyta   pagal 
+alternatyvinÔ standartĞ (LST 1284:1993).
+
+    P A L E I D I M A S
+    -------------------
+    Programa paleidØiama surinkus komandĞ  LIR  su  vienu  ar  keliais 
+raktais ar be jÖ. Patartina paleidimĞ vykdyti  iÕ  failo  AUTOEXEC.BAT
+prieÕ kitas rezidentines programas.
+    Programa  Ô  atmintÔ   kraunama   tik   vienĞ   kartĞ,   leidØiant 
+pakartotinai, tik perduodami nurodyti raktai. 
+    PaleidØiant naujesnÒ LiR versijĞ, atmintyje neturi  b×ti  senesnÓs
+versijos. 
+
+    V A L D Y M A S
+    ---------------    
+    LiR sudaryta iÕ dviejÖ funkcionaliai skirtingÖ daliÖ:  klaviat×ros 
+valdymo ir simboliÖ valdymo.
+
+    SIMBOLIÆ LENTEL¸S PARINKIMAS.   LietuviÕkÖ    simboliÖ    lentelÓs 
+iÕdÓstymas gali b×ti keiÑiamas cikliÕkai, vienu  metu  nuspaudus  TRIS 
+klaviÕus:
+             deÕinÓje CTRL ir ALT, kairÓje SHIFT.
+    Jei klaviat×roje nÓra deÕinÓs  pusÓs  klaviÕÖ  CTRL  ir  ALT,  tai
+simboliÖ lentelÓ keiÑiama vienu metu nuspaudus TRIS klaviÕus:
+             kairÓje CTRL, ALT ir SHIFT.
+    SimboliÖ lentelÓs perjungimas galimas tik tada,  kai  neuØdraustas
+ÕriftÖ perjungimas (nenurodytas raktas /f).
+    SimboliÖ lentelÓs perjungimas Ôjungia  standartinÒ  klaviat×rĞ  ir 
+lietuviÕkus simbolius.
+    Pagal  nutylÓjimĞ  Ôjungiama  772  simboliÖ   lentelÓ.  IBM BALTIC 
+simboliÖ lentelÓ gali b×ti Ôjungiama raktu /2, KBL  lentelÓ  Ôjungiama 
+raktu /3.
+
+    KLAVIATÇROS I¾D¸STYMO PARINKIMAS. Klaviat×ros iÕdÓstymas gali b×ti 
+keiÑiamas cikliÕkai, vienu  metu nuspaudus TRIS klaviÕus:
+             kairÓje CTRL ir ALT, deÕinÓje SHIFT.
+    Klaviat×ros iÕdÓstymo keitimĞ galima uØdrausti raktu /v.
+    LietuviÕkos     klaviat×ros iÕdÓstymas nurodomas raktais:
+         /a - µÏERTY (pagal nutylÓjimĞ);
+         /q - DOS tarptautinis;
+         /e - ergonominis.
+
+    KLAVIATÇROS VALDYMAS.  Priklausomai   nuo   klaviat×ros   b×senos, 
+Ôvedami  atitinkami  lietuviÕkÖ,  rusiÕkÖ  arba   lotyniÕkÖ   simboliÖ
+(standartiniai)  kodai.  Klaviat×ra  perjungiama  kartu  nuspaudus  du 
+KAIR¸S pusÓs klaviÕus:
+         lotyniÕka (standartinÓ) - CTRL ir ALT,
+         lietuviÕka              - ALT  ir SHIFT,   
+         rusiÕka                 - CTRL ir SHIFT.
+    Klaviat×ros b×sena gali b×ti Ôjungiama vienu iÕ atitinkamÖ raktÖ:
+         /l - lietuviÕka,        
+         /r - rusiÕka.
+    Vienu metu klaviat×ra gali b×ti tik vienoje b×senoje.
+Pastaba 1: Tie simboliai, kuriuos "uØdengia" lietuviÕkos arba rusiÕkos
+           raidÓs, gaunami tik Ôjungus standartinÒ klaviat×rĞ.
+Pastaba 2: SÓkmingas darbas garantuojamas tik su standartine 83/84 bei
+           101 klaviÕo klaviat×ra.
+
+    SIMBOLIÆ VALDYMAS. Tam, kad iÕ  klaviat×ros  Ôvedamos  lietuviÕkos
+ir  (arba)  rusiÕkos  raidÓs  b×tÖ  teisingai  atvaizduojami   ekrane, 
+reikia  Ôjungti  atitinkamus  simbolius.  Simboliai  Ôjungiami  kartu 
+nuspaudus  du  DE¾IN¸S  pusÓs klaviÕus:
+         lotyniÕka (standartinÓ) - CTRL ir ALT,
+         lietuviÕka              - ALT  ir SHIFT,
+         rusiÕka                 - CTRL ir SHIFT.
+    Jei klaviat×ra neturi deÕinÓs  pusÓs  klaviÕÖ  CTRL  ir  ALT,  tai
+Õriftai Ôjungiami nuspaudus DE¾IN¸S pusÓs klaviÕĞ  SHIFT  ir vienĞ  iÕ 
+KAIR¸S pusÓs klaviÕÖ:    
+         lotyniÕka (standartinÓ) - SHIFT,
+         lietuviÕka              - ALT,
+         rusiÕka                 - CTRL.
+    RusiÕkÖ simboliÖ Ôjungimas gali b×ti nurodomas raktu  /c.
+
+    IBM BALTIC simboliÖ lentelÓs  atveju,  ekrane  vienu  metu  galima 
+matyti tik lietuviÕkus arba tik rusiÕkus simbolius.
+    Jei  ÕriftÖ  perjungimo  metu  Ôjungtas  tekstinis  reØimas,   tai
+simboliai ekrane pasikeiÑia akimirksniu, jei grafinis - tai  simboliai
+pasikeiÑia tik juos perraÕant ekrane.    
+    Naudojant du displÓjus, simboliai perjungiami tik  tam  displÓjui,
+kuris tuo momentu yra einamasis.    
+    SimboliÖ perjungimĞ galima uØdrausti raktu  /f.
+    Pvz.: LIR /c /f   Ôjungia   lietuviÕkus  ir  rusiÕkus simbolius ir
+          uØdraudØia tolesnÔ jÖ junginÓjimĞ.    
+   ½jungiant lietuviÕkĞ  arba  rusiÕkĞ  klaviat×rĞ,  kartu   Ôjungiami 
+atitinkami simboliai (be rakto /f).            
+Pastaba: Tekstiniame reØime ÕriftÖ perjungimas galimas  tik  naudojant
+         video  adapterius  MCGA,  EGA   arba   VGA.   Kitiems   video 
+         adapteriams ÕriftÖ perjungimas veikia tik grafiniame reØime.
+
+    KALBOS UÏDRAUDIMAS. Jei reikalinga tik  lietuviÕka	klaviat×ra  ir
+simboliai, rusiÕkĞ galima uØdrausti raktu:
+	  /u  - neleidØia jungti rusiÕkos klaviat×ros ir simboliÖ.
+    VisiÕkai uØdraudØia valdymĞ raktas /d, t.y panaikinamas  bet  koks 
+programos veikimas. 
+    Raktas  /x  paÕalina  programĞ  iÕ  atminties  (jei  po  jos  nÓra 
+pakrautos kitos programos).
+
+    GARSAS. B×senos pasikeitimo  metu  pasigirsta  trumpas  atitinkamo
+tono signalinis pyptelÓjimas. Tai galima iÕjungti raktu  /n.
+
+    PAGALBA. TrumpĞ  programos  valdymo  instrukcijĞ  galima  pamatyti
+ekrane, uØdavus raktĞ  /h. LietuviÕkos  klaviat×ros  iÕdÓstymĞ  parodo
+raktas  /b, rusiÕkos -  /k.
+
+    SPAUSDINIMAS.  Darbui   su   Ôvairiais   spausdinimo   Ôrenginiais  
+reikalingos    atskiros    rezidentinÓs     spausdinimo     programos,  
+bendraujanÑios su programa LiR progaminiÖ funkcijÖ pagalba. Jos veikia
+sinchroniÕkai pagal LiR b×senĞ ir priØi×ri, kad spausdinami  simboliai
+sutaptÖ su matomais tuo  metu  ekrane  simboliais.  Jei  spausdintuvas
+darbo metu buvo kuriam laikui iÕjungtas, reikalinga  ÔspÓti  apie  tai
+spausdinimo  programĞ.  Tam  naudojama  simboliÖ   kombinacija,   kuri
+inicializuoja spausdintuvĞ, naudojant pertraukimo 17h funkcijĞ AH=1:
+   kairÓs pusÓs CTRL, ALT ir SHIFT bei deÕinÓs pusÓs SHIFT  klaviÕai. 
+Tai Øymiai patogiau, negu iÕ naujo paleisti spausdinimo programĞ.  Jei
+klaviat×ra  neturi  deÕinÓs  pusÓs klaviÕÖ CTRL ir ALT,   spausdintuvo
+inicializacija   Ôvykdoma   nuspaudus  ABU  SHIFT   klaviÕus,   po  to
+neatleidØiant, nuspaudus CTRL ir ALT klaviÕus.
+
+    P A S T E B ¸ J I M A I
+    -----------------------
+    I. Kai kurie programÖ paketai naudoja Ôvairias klaviÕÖ SHIFT, CTRL
+       ir ALT kombinacijas. 
+          1. Jei vykdant  kokiĞ  nors  vartotojiÕko  paketo  funkcijĞ,
+             persijungia  Õriftai,   uØdrauskite   ÕriftÖ   perjungimĞ 
+             raktu /f.
+          2. Jei persijungia klaviat×ros b×sena, po funkcijos Ôvykdymo 
+             atstatykite  reikalingĞ  b×senĞ,   nuspaudÒ   atitinkamus 
+             klaviÕus.
+          3. Jei  klaviat×ros  b×senos   perjungimas   iÕÕaukia   kitĞ
+             funkcijĞ,   pabandykite   pakeisti    naudojamo    paketo
+             konfig×racijĞ taip,  kad  neb×tÖ  naudojamos  tos  paÑios
+             klaviÕÖ kombinacijos.
+          4. Jei  J×sÖ  naudojama  programa  reaguoja  Ô  ALT  klaviÕo 
+             paspaudimĞ, LiR-o b×senÖ perjungimui Õis klaviÕas  neturi
+             b×ti nuspaudØiamas pirmuoju.
+   II. Specialios  video   adapteriÖ   aptarnavimo   programos,   ypaÑ
+       keiÑianÑios vektoriÖ 10h, gali sutrikdyti normalÖ darbĞ.  Tokiu 
+       atveju reikia iÕ naujo paleisti programĞ, taÑiau atmintyje gali 
+       atsirasti dvi ar keletas  LiR  kopijÖ.  Apie  tai  signalizuoja
+       pailgÓjÒs garso signalas, keiÑiant programos b×senĞ.  Geriausia 
+       ir veiksmingiausia iÕeitis - perkrauti sistemĞ. 
+  III. KitÖ  klaviat×ros  bei  ÕriftÖ  valdymo  programÖ   lygiagretus
+       paleidimas neleistinas. ¾iuo atveju Jums tenka  pasirinkti  tik 
+       vienĞ iÕ jÖ.
+   IV. Jei   iÕkyla   sunkumÖ   renkant   raidÒ  '·'  (tai  paØymÓtina
+       kompiuteriams   su   BIOS-u   'Phoenix', Ôvykdykite  programÓlÒ 
+       LIRPHOE.
+    V. Kai   kurie   kompiuteriai   naudoja   klaviÕÖ   CTRL-ALT-SHIFT 
+       kombinacijas  turbo  reØimo  junginÓjimui   ir   blokuoja   LIR 
+       klaviat×ros perjungimĞ. Pabandykite uØdrausti turbo junginÓjimĞ
+       kompiuterio pagrindinÓs plokÕtÓs jungikliais,  arba  Ôvykdykite 
+       programÓlÒ LIRXTUR.
+   VI. Jeigu J×sÖ VGA monitorius naudoja 19-os taÕkÖ aukÕÑio simbolius
+       (daØniausiai tokius simbolius naudoja "Notebook" kompiuteriai), 
+       perjunkite  juos  Ô  16-os.  Tai  turi   b×ti   apraÕyta   J×sÖ 
+       kompiuterio   dokumentacijoje,   daØniausiai   tam    naudojama 
+       programÓlÓ  EAGLE.  Jei  to  padaryti  negalima,  prieÕ   LIR-Ğ
+       Ôvykdykite programÓlÒ LIRVGA19.
+  VII. "The Norton Commander" vidinis redaktorius absoliuÑiai nepriima
+       rusiÕkos  raidÓs  'à'  nei  iÕ  LiR'o,   nei   vedant   kitomis 
+       priemonÓmis.  Jei  tai  sudaro  problemÖ,  kreipkitÓs  Ô  gerb.
+       Peter'Ô Norton'Ğ.    
+ VIII. Programa LiR modifikuoja  tik  atitinkamas  BIOS  funkcijas  ir
+       simboliÖ lenteles, todÓl sÓkmingai  veiks  tik  tos  programos,
+       kurios naudoja BIOS funkcijas ir Õriftus. Kai kurie  specialios
+       paskirties grafiniai paketai, pvz.:"Paintbrush", "Show Partner" 
+       ir  pan.,  naudoja  savo  specialius  Õriftus  ir  nepriima  iÕ
+       klaviat×ros  lietuviÕkÖ/rusiÕkÖ   raidØiÖ.   Tokiais   atvejais 
+       programa LiR maØai kuo gali padÓti  ir  reikalinga  modifikuoti 
+       paÑius paketus.
+   IX. Programos rezidentinÓ dalis uØima  apie  16  Kb  atminties,  iÕ 
+       kuriÖ beveik 13 Kb  sudaro  simboliÖ  lentelÓs.  Tai  palyginti  
+       nemaØai,  taÑiau  tik  tokia  auka  pavyko  pasiekti  programos 
+       universalumĞ. Jei J×sÖ kompiuteriui pradeda  tr×kti  atminties,
+       perØi×rÓkite failĞ AUTOEXEC.BAT. IÕ jo  beveik  visada  yra  kĞ
+       iÕmesti.  Ir  nekraukite   programos   LiR   (ir   jokiÖ   kitÖ 
+       rezidentiniÖ programÖ) iÕ Norton Commander'io.
+    X. Venkite perjunginÓti programos LiR b×senĞ kreipimosi  Ô  diskĞ,
+       darbo su Ôvairiais  ÔÕoriniais  Ôrenginiais,  dideliÖ  programÖ 
+       krovimo  metu.  Atminkite,  kad   tai   kiÕimasis   Ô   normalÖ
+       kompiuterio darbĞ. TaÑiau, jei to iÕvengti negalite,  iÕjunkite 
+       garsĞ (raktas /n).   
+
+    P R O G R A M I N I S   V A L D Y M A S
+    ---------------------------------------
+    (tik programuotojams)
+    Programinis valdymas  vykdomas  per  BIOS  pertraukimĞ  10h - BIOS 
+Video Service.
+    BÇSENOS PERDAVIMAS.
+    SiunÑiama : AX = 05555h
+                BX = 0AAAAh
+                CL = programos b×sena,
+                CH = video adapterio(-iÖ) tipas,
+                     0, jei nekeiÑiama.
+                DL = klaviat×ros b×sena,
+                DH = simboliÖ b×sena.  
+    Gaunama   : AX = 0A55Ah - Ok!
+    BÇSENOS NUSKAITYMAS.
+    SiunÑiama : AX = 05555h
+                BX = 0BBBBh
+    Gaunama   : AX = 0A55Ah - Ok!
+                BX = programos versija (bh-vyresnÓ dalis, bl-jaunesnÓ)
+                     pvz. bx=0410h <=> v4.10
+                CL = programos b×sena,
+                CH = video adapterio(-iÖ) tipas,
+                DL = klaviat×ros b×sena,
+                DH = simboliÖ b×sena.  
+
+    Programos b×sena:
+Ú7Â6Â5Â4Â3Â2Â1Â0¿ 
+³ ³ ³ ³ ³ ³ ³ ³ ³
+ÀÄÁÄÁÄÁÄÁÄÁÄÁÄÁÄÙ  bitas
+ º º ÈÍËÍ¼ º º ÈÍ  0: 1=garsas Ôjungtas; 0=iÕjungtas(/n)
+ º º   º   º ÈÍÍÍ  1: 1=leidØiama jungti rusiÕkĞ dalÔ; 0=neleidØiama(/u)
+ º º   º   ÈÍÍÍÍÍ  2: 1=leidØiama jungti lietuviÕkĞ dalÔ; 0=neleidØiama
+ º º   ÈÍÍÍÍÍÍÍÍÍ  3-5: 100=kodÖ lentelÓ IBM BALTIC(/2)
+ º º                    010=kodÖ lentelÓ KBL(/3)
+ º º                    001=kodÖ lentelÓ 772/774(/1)
+ º ÈÍÍÍÍÍÍÍÍÍÍÍÍÍ  6: 1=simboliÖ perjungimas galimas; 0=negalimas(/f)
+ ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ  7: 1=programa aktyvi; 0=iÕjungta(/d)
+
+    Klaviat×ros b×sena:
+Ú7Â6Â5Â4Â3Â2Â1Â0¿
+³ ³ ³ ³0³0³ ³ ³ ³
+ÀÄÁÄÁÄÁÄÁÄÁÄÁÄÁÄÙ  bitas
+ ÈÍËÍ¼     º º ÈÍÍ 0: 1=leidØiama keisti klaviat×ros iÕdÓstymĞ(/v)
+   º       º ÈÍÍÍÍ 1: 1=Ôjungta rusiÕka klaviat×ra(/r)
+   º       ÈÍÍÍÍÍÍ 2: 1=Ôjungta lietuviÕka klaviat×ra(/l)
+   ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍ 5-7: 100=DOS tarptautinÓ klaviat×ra(/q)
+                        010=alternatyvinÓ klaviat×ra(/a)
+                        001=ergonominÓ klaviat×ra(/e)
+
+    SimboliÖ b×sena:
+Ú7Â6Â5Â4Â3Â2Â1Â0¿
+³0³0³0³0³0³ ³ ³0³
+ÀÄÁÄÁÄÁÄÁÄÁÄÁÄÁÄÙ  bitas
+           º ÈÍÍÍ  1: 1=Ôjungti rusiÕki simboliai(/c)
+           ÈÍÍÍÍÍ  2: 1=Ôjungti lietuviÕki simboliai
+
+    Video adapteris:
+Ú7Â6Â5Â4Â3Â2Â1Â0¿
+³ ³0³0³ ³ ³ ³ ³0³
+ÀÄÁÄÁÄÁÄÁÄÁÄÁÄÁÄÙ  bitas
+ º     º º º ÈÍÍÍ  1: 1=CGA
+ º     º º ÈÍÍÍÍÍ  2: 1=EGA
+ º     º ÈÍÍÍÍÍÍÍ  3: 1=MCGA
+ º     ÈÍÍÍÍÍÍÍÍÍ  4: 1=VGA
+ ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ  7: 1=Hercules
+
+    K L A V I A T Ç R O S   I ¾ D ¸ S T Y M A I
+    -------------------------------------------
+
+1. Universalus lietuviÕkos klaviat×ros iÕdÓstymas:
+ÉÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍ»
+º~  º!  º@  º/  º;  º:  º,  º.  º?  º(  º)  º_  º+  º|  º<ÄÄº
+º`  º1  º2  º3  º4  º5  º6  º7  º8  º9  º0  º-  º=  º\  º   º
+ÌÍÍÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍÍÍ¹
+º³<ÄÄÄºµ  ºÏ  ºE  ºR  ºT  ºY  ºU  ºI  ºO  ºP  º½  º"  º     º
+ºÄÄÄ>³ºĞ  ºØ  ºe  ºr  ºt  ºy  ºu  ºi  ºo  ºp  ºÔ  º'  º   ³ º
+ÌÍÍÍÍÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍ¼ <ÄÙ º
+º Caps  ºA  ºS  ºD  ºF  ºG  ºH  ºJ  ºK  ºL  ºÆ  º¸  º       º
+º Lock  ºa  ºs  ºd  ºf  ºg  ºh  ºj  ºk  ºl  ºÖ  ºÓ  º       º
+ÌÍÍÍÍÍÍÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍÍÍÍÍÍÍ¹
+º Shift   ºZ  ºÇ  ºC  ºV  ºB  ºN  ºM  º¶  º¾  º·  º Shift   º
+º         ºz  º×  ºc  ºv  ºb  ºn  ºm  ºÑ  ºÕ  ºÒ  º         º
+ÌÍÍÍÍÍÍÍËÍÊËÍÍÊÍÍËÊÍÍÍÊÍÍÍÊÍÍÍÊÍÍÍÊÍÍÍÊÍÍÍÊËÍÍÊÍÍËÊÍËÍÍÍÍÍÍÍ¹
+º Ctrl  º  º Alt º                         º Alt º  º Ctrl  º
+º       º  º     º                         º     º  º       º
+ÈÍÍÍÍÍÍÍ¼  ÈÍÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍ¼  ÈÍÍÍÍÍÍÍ¼
+
+2. Ergonominis lietuviÕkos klaviat×ros iÕdÓstymas:
+ÉÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍ»
+º+  º1  º2  º3  º4  º5  º6  º7  º8  º9  º0  º=  ºX  ºQ  º<ÄÄº
+º;  º!  º-  º/  º(  º"  º)  º.  º_  º,  º:  º?  ºx  ºq  º   º
+ÌÍÍÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍÍÍ¹
+º³<ÄÄÄºF  ºZ  ºV  ºP  ºU  ºJ  ºB  ºL  ºD  ºC  ºH  ºW  º     º
+ºÄÄÄ>³ºf  ºz  ºv  ºp  ºu  ºj  ºb  ºl  ºd  ºc  ºh  ºw  º   ³ º
+ÌÍÍÍÍÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍ¼ <ÄÙ º
+º Caps  ºN  ºO  ºE  ºA  ºK  ºY  ºM  ºI  ºS  ºT  ºR  º       º
+º Lock  ºn  ºo  ºe  ºa  ºk  ºy  ºm  ºi  ºs  ºt  ºr  º       º
+ÌÍÍÍÍÍÍÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍÍÍÍÍÍÍ¹
+º Shift   ºÇ  º¶  ºÏ  ºG  ºµ  º½  ºÆ  º¾  º¸  º·  º Shift   º
+º         º×  ºÑ  ºØ  ºg  ºĞ  ºÔ  ºÖ  ºÕ  ºÓ  ºÒ  º         º
+ÌÍÍÍÍÍÍÍËÍÊËÍÍÊÍÍËÊÍÍÍÊÍÍÍÊÍÍÍÊÍÍÍÊÍÍÍÊÍÍÍÊËÍÍÊÍÍËÊÍËÍÍÍÍÍÍÍ¹
+º Ctrl  º  º Alt º                         º Alt º  º Ctrl  º
+º       º  º     º                         º     º  º       º
+ÈÍÍÍÍÍÍÍ¼  ÈÍÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍ¼  ÈÍÍÍÍÍÍÍ¼
+
+3. DOS tarptautinis lietuviÕkos klaviat×ros iÕdÓstymas:
+ÉÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍ»
+º~  ºµ  º¶  º·  º¸  º½  º¾  ºÆ  ºÇ  º(  º)  º_  ºÏ  º|  º<ÄÄº
+º`  ºĞ  ºÑ  ºÒ  ºÓ  ºÔ  ºÕ  ºÖ  º×  º(  º)  º-  ºØ  º\  º   º
+ÌÍÍÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍÍÍ¹
+º³<ÄÄÄºQ  ºW  ºE  ºR  ºT  ºY  ºU  ºI  ºO  ºP  º{  º}  º     º
+ºÄÄÄ>³ºq  ºw  ºe  ºr  ºt  ºy  ºu  ºi  ºo  ºp  º[  º]  º   ³ º
+ÌÍÍÍÍÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍ¼ <ÄÙ º
+º Caps  ºA  ºS  ºD  ºF  ºG  ºH  ºJ  ºK  ºL  º:  º"  º       º
+º Lock  ºa  ºs  ºd  ºf  ºg  ºh  ºj  ºk  ºl  º;  º'  º       º
+ÌÍÍÍÍÍÍÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍÍÍÍÍÍÍ¹
+º Shift   ºZ  ºX  ºC  ºV  ºB  ºN  ºM  º<  º>  º?  º Shift   º
+º         ºz  ºx  ºc  ºv  ºb  ºn  ºm  º,  º.  º/  º         º
+ÌÍÍÍÍÍÍÍËÍÊËÍÍÊÍÍËÊÍÍÍÊÍÍÍÊÍÍÍÊÍÍÍÊÍÍÍÊÍÍÍÊËÍÍÊÍÍËÊÍËÍÍÍÍÍÍÍ¹
+º Ctrl  º  º Alt º                         º Alt º  º Ctrl  º
+º       º  º     º                         º     º  º       º
+ÈÍÍÍÍÍÍÍ¼  ÈÍÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍ¼  ÈÍÍÍÍÍÍÍ¼
+
+4. RusiÕkos klaviat×ros iÕdÓstymas:
+ÉÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍËÍÍÍ»
+º)  º!  º"  º/  º$  º:  º,  º.  º;  º?  º%  º_  º+  º|  º   º
+º(  º1  º2  º3  º4  º5  º6  º7  º8  º9  º0  º-  º=  º\  º<--º
+ÌÍÍÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍÍÍ¹
+º³<ÄÄÄº‰  º–  º“  ºŠ  º…  º  ºƒ  º˜  º™  º‡  º•  ºš  º     º
+ºÄÄÄ>³º©  ºæ  ºã  ºª  º¥  º­  º£  ºè  ºé  º§  ºå  ºê  º   ³ º
+ÌÍÍÍÍÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍ¼ <ÄÙ º
+º Caps  º”  º›  º‚  º€  º  º  º  º‹  º„  º†  º  º       º
+º Lock  ºä  ºë  º¢  º   º¯  ºà  º®  º«  º¤  º¦  ºí  º       º
+ÌÍÍÍÍÍÍÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍËÍÊÍÍÍÍÍÍÍ¹
+º Shift   ºŸ  º—  º‘  ºŒ  ºˆ  º’  ºœ  º  º  º?  º Shift   º
+º         ºï  ºç  ºá  º¬  º¨  ºâ  ºì  º¡  ºî  º/  º         º
+ÌÍÍÍÍÍÍÍËÍÊËÍÍÊÍÍËÊÍÍÍÊÍÍÍÊÍÍÍÊÍÍÍÊÍÍÍÊÍÍÍÊËÍÍÊÍÍËÊÍËÍÍÍÍÍÍÍ¹
+º Ctrl  º  º Alt º                         º Alt º  º Ctrl  º
+º       º  º     º                         º     º  º       º
+ÈÍÍÍÍÍÍÍ¼  ÈÍÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍ¼  ÈÍÍÍÍÍÍÍ¼
+
