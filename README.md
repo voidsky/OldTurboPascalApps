@@ -9,7 +9,3 @@ Pascal Testing System - written somewhere in year 1999-2000 as a first course wo
 
 Bomber - bomber game writen in Turbo Pascal 1999.07.
 
- _____
-|==   |
-|  o. |
-|__O__| 
