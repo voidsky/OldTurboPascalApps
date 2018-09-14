@@ -1,4 +1,7 @@
 # OldTurboPascalApps
+
+**Stored here as archive from ooold floppy disks.** 
+
 Some Turbo pascal apps I wrote long long time ago and now found them in old floppies.
 It is here just for nostalgic reasons so please dont judge me based on this code (◔/‿\◔)
 
